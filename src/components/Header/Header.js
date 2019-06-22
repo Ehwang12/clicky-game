@@ -1,23 +1,25 @@
 import React from "react";
-import './style.css';
+import '../Header/style.css';
 
 class Header extends React.Component {
-  state = {
-    count: 0
-  };
-
-  handleIncrement = () => {
-    this.setState({ count: this.state.count + 1 });
-  };
-
+  
   render() {
     return (
       <nav className="navbar navbar-dark indigo">
-        <span className="navbar-text white-text">The Clicky Game</span>
-          <button className="btn btn-primary" onClick={this.handleIncrement}>
-            Increment
-          </button>
-        <span className="navbar-text white-text">Wins: 0 | Score: {this.state.count}</span>
+        
+          {/* title */}
+          <img className="clicky-font" src="https://fontmeme.com/permalink/190622/9abb645554248ae6a5b12de539fa6da3.png" alt="the-lord-of-the-rings-font" border="0" /> 
+          
+
+          {/* Wins */}
+          <img className="clicky-score float-right" src="https://fontmeme.com/permalink/190622/83572698e4378165114334818cf914fb.png" alt="the-lord-of-the-rings-font" border="0"/>
+            <span className="score-num">0</span>
+
+          {/* Score */}
+          <img className="clicky-score float-right" src="https://fontmeme.com/permalink/190622/588eeea596e512563e99cf4c7509eb63.png" alt="the-lord-of-the-rings-font" border="0"/>
+            <span className="score-num">0</span>
+          
+        
       </nav>
     );
   }
