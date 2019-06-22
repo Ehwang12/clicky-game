@@ -13,7 +13,11 @@ import Wrapper from './components/Wrapper/Wrapper';
 class App extends React.Component {
   
   state = {
-    testArray: ArrayOne
+    characters: ArrayOne,
+    Score: 0,
+    Wins: 0,
+    clicked: []
+
   }
   
   
@@ -27,12 +31,12 @@ class App extends React.Component {
       
         <Wrapper>
         <div className="row">
-          {this.state.testArray.map(row => (
+          {this.state.characters.map(image => (
             <Card 
-              key={row.id}
-              id={row.id}
-              name={row.name}
-              imgUrl={row.image}
+              key={image.id}
+              id={image.id}
+              name={image.name}
+              imgUrl={image.image}
             />
           ))}
         </div>
