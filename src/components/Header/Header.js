@@ -1,23 +1,25 @@
 import React from "react";
+import './style.css';
 
-function Header() {
+class Header extends React.Component {
+  state = {
+    count: 0
+  };
+
+  handleIncrement = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+
+  render() {
     return (
-      <header style={headerStyle}>
-        <p>Score: 0</p>
-        <p>Wins: 0</p>
-        <p>Loss: 0</p>
-      </header>
+      <nav className="navbar navbar-dark indigo">
+        <span className="navbar-text white-text">The Clicky Game</span>
+          <button className="btn btn-primary" onClick={this.handleIncrement}>
+            Increment
+          </button>
+        <span className="navbar-text white-text">Wins: 0 | Score: {this.state.count}</span>
+      </nav>
     );
-}
-
-const headerStyle = {
-  float: "right",
-  display: "inline",
-  background: "#FDDF64",
-  color: "#581845",
-
-  p: {
-    display: "inline"
   }
 }
 
