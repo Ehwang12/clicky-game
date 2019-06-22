@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Ehwang12/clicky-game/static/css/main.a61e13a8.chunk.css",
-    "main.js": "/Ehwang12/clicky-game/static/js/main.eb3ae98b.chunk.js",
-    "main.js.map": "/Ehwang12/clicky-game/static/js/main.eb3ae98b.chunk.js.map",
+    "main.js": "/Ehwang12/clicky-game/static/js/main.375b1e03.chunk.js",
+    "main.js.map": "/Ehwang12/clicky-game/static/js/main.375b1e03.chunk.js.map",
     "runtime~main.js": "/Ehwang12/clicky-game/static/js/runtime~main.5b78adb5.js",
     "runtime~main.js.map": "/Ehwang12/clicky-game/static/js/runtime~main.5b78adb5.js.map",
     "static/js/2.98dcc9dd.chunk.js": "/Ehwang12/clicky-game/static/js/2.98dcc9dd.chunk.js",
     "static/js/2.98dcc9dd.chunk.js.map": "/Ehwang12/clicky-game/static/js/2.98dcc9dd.chunk.js.map",
     "index.html": "/Ehwang12/clicky-game/index.html",
-    "precache-manifest.2c156234585766265c1a479f9ca8c2db.js": "/Ehwang12/clicky-game/precache-manifest.2c156234585766265c1a479f9ca8c2db.js",
+    "precache-manifest.c0f24a2570178635b3049a78a631937d.js": "/Ehwang12/clicky-game/precache-manifest.c0f24a2570178635b3049a78a631937d.js",
     "service-worker.js": "/Ehwang12/clicky-game/service-worker.js",
     "static/css/main.a61e13a8.chunk.css.map": "/Ehwang12/clicky-game/static/css/main.a61e13a8.chunk.css.map"
   }
